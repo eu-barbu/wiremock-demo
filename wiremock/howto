@@ -1,0 +1,5 @@
+Start in recording mode:
+java -jar wiremock-standalone-3.3.1.jar --port 9999 --proxy-all="http://localhost:8080" --record-mappings --verbose
+
+Start in playback mode:
+java -jar wiremock-standalone-3.3.1.jar --port 9999 --verbose
