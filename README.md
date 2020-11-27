@@ -33,7 +33,7 @@ _java -jar wiremock-jre8-standalone-2.27.2.jar --port 9999 --proxy-all="http://l
 This will result in the same response message as provided by the "real" service.
 All actions are recorded in the wiremock/ folder:
 
-![Image 2](media/3.JPG)
+![Image 3](media/3.JPG)
 
 8. Stop wiremock and re-run it in playback mode, without recording:
 java -jar wiremock-jre8-standalone-2.27.2.jar --port 9999 --verbose
